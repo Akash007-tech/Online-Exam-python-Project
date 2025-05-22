@@ -1,0 +1,28 @@
+{%load static%}
+<!DOCTYPE html>
+<html>
+  <head><title>Logged Out</title></head>
+  <body>
+    <h1>You have been logged out.</h1>
+  </body>
+</html>
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body style="background: url({% static '1.jpg' %}); background-size:100%;">
+    {% include "quiz/navbar.html" %}
+    <div class="container text-center" style="background:#FFF;padding:80px 40px;">
+    <br><br><br><br><br>
+<img src="{% static "image/logout_img.png" %}"  style="width:800px; height:100px; padding-left:400px;">
+
+<br><br><br><br><br>
+<br><br><br><br><br>
+<br><br>
+</div><br><Br>
+{% include "quiz/footer.html" %}
+
+  </body>
+</html>
